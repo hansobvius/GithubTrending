@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <last-search-timestamp>1565216934764</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1abd2ade-1198-45f1-851d-c6382187be1e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/domain">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+                <item name="GithubTrending" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+                <item name="GithubTrending" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+                <item name="GithubTrending" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+                <item name=":domain" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+                <item name=":domain" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubTrending" type="f1a62948:ProjectNode" />
+                <item name=":domain" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Params</find>
+      <find>forProject</find>
+      <find>roboletricVersion</find>
+      <find>roomVersion</find>
+      <find>getPackageLibrary</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/GetProjects.kt" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/browse/GetProjects.kt" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/interactor/GetProjectTest.kt" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/GetProjectTest.kt" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/browse/GetProjectTest.kt" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/interactor/browse/GetProjectTest.kt" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/bookmarked/GetBookmarkedProjects.kt" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/interactor/bookmark/GetGetBookmarkedProjectsTest.kt" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/interactor/bookmark/GetBookmarkedProjectsTest.kt" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/CompletableUseCase.kt" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/interactor/bookmark/BookmarkedProjectTest.kt" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/bookmarked/BookmarkedProject.kt" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/bookmarked/UnbookmarkProjectTest.kt" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/interactor/bookmark/UnbookmarkProjectTest.kt" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/bookmarked/UnbookmarkProject.kt" />
+        <option value="$PROJECT_DIR$/data/build.gradle" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/e/domain/model/Project.kt" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/test/ProjectDataFactory.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/mapper/EntityMapper.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/mapper/ProjectMapper.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/repository/ProjectsCache.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/repository/ProjectsRemote.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/repository/ProjectsDataStore.kt" />
+        <option value="$PROJECT_DIR$/data/src/test/java/com/e/githubtrending/DataFactory.kt" />
+        <option value="$PROJECT_DIR$/data/src/test/java/com/e/githubtrending/ProjectsFactory.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/store/ProjectsDataStoreFactory.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/ProjectsDataRepository.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/store/ProjectsCacheDataStore.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/store/ProjectsRemoteDataStore.kt" />
+        <option value="$PROJECT_DIR$/data/src/test/java/com/e/githubtrending/store/ProjectsDataStoreFactoryTest.kt" />
+        <option value="$PROJECT_DIR$/remote/build.gradle" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/android/remote/model/OwnerModel.kt" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/android/remote/service/GithubTrendingService.kt" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/android/remote/mapper/ModelMapper.kt" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/android/remote/mapper/ProjectsResponseModelMapper.kt" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/android/remote/model/ProjectModel.kt" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/android/remote/service/GithubTrendingServiceFactory.kt" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/android/remote/ProjectsRemoteImpl.kt" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/android/remote/model/ProjectsResponseModel.kt" />
+        <option value="$PROJECT_DIR$/cache/build.gradle" />
+        <option value="$PROJECT_DIR$/dependencies.gradle" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/com/android/cache/dao/CachedProjectsDao.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/com/android/cache/db/ProjectConstants.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/com/android/cache/db/ConfigConstants.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/com/android/cache/dao/ConfigDao.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/com/android/cache/db/ProjectsDatabase.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/com/android/cache/model/Config.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/com/android/cache/model/CachedProject.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/com/android/cache/mapper/CacheMapper.kt" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/com/android/cache/mapper/CachedProjectMapper.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/android/data/model/ProjectEntity.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-4" />
+    <option name="width" value="1108" />
+    <option name="height" value="598" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GithubTrending" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GithubTrending" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.e.githubtrending.factory" />
+      <recent name="com.e.githubtrending.browse" />
+      <recent name="com.e.githubtrending.interactor.browse" />
+      <recent name="com.e.githubtrending.interactor" />
+      <recent name="com.e.domain.interactor.browse" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thiago\AndroidStudioProjects\Caster.IO\CleanCourse\GithubTrending\data\src" />
+      <recent name="C:\Users\thiago\AndroidStudioProjects\Caster.IO\CleanCourse\GithubTrending\domain\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\thiago\AndroidStudioProjects\Caster.IO\CleanCourse\GithubTrending\domain\src\test\java\com\e\githubtrending\interactor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="ProjectsDataStoreFactoryTest.getCacheDataStoreReturnsCacheStore" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.e.githubtrending.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.e.githubtrending.store" />
+      <option name="MAIN_CLASS_NAME" value="com.e.githubtrending.store.ProjectsDataStoreFactoryTest" />
+      <option name="METHOD_NAME" value="getCacheDataStoreReturnsCacheStore" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsCacheStore" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.e.githubtrending.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.e.githubtrending.store" />
+      <option name="MAIN_CLASS_NAME" value="com.e.githubtrending.store.ProjectsDataStoreFactoryTest" />
+      <option name="METHOD_NAME" value="getDataStoreReturnsCacheStore" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsStoreWhenCacheExpired" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.e.githubtrending.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.e.githubtrending.store" />
+      <option name="MAIN_CLASS_NAME" value="com.e.githubtrending.store.ProjectsDataStoreFactoryTest" />
+      <option name="METHOD_NAME" value="getDataStoreReturnsStoreWhenCacheExpired" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsStoreWhenProjectsNotCache" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.e.githubtrending.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.e.githubtrending.store" />
+      <option name="MAIN_CLASS_NAME" value="com.e.githubtrending.store.ProjectsDataStoreFactoryTest" />
+      <option name="METHOD_NAME" value="getDataStoreReturnsStoreWhenProjectsNotCache" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnbookmarkProjectTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.e.githubtrending.interactor.bookmark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.e.githubtrending.interactor.bookmark" />
+      <option name="MAIN_CLASS_NAME" value="com.e.githubtrending.interactor.bookmark.UnbookmarkProjectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ProjectsDataStoreFactoryTest.getCacheDataStoreReturnsCacheStore" />
+        <item itemvalue="Android JUnit.ProjectsDataStoreFactoryTest.getDataStoreReturnsCacheStore" />
+        <item itemvalue="Android JUnit.ProjectsDataStoreFactoryTest.getDataStoreReturnsStoreWhenProjectsNotCache" />
+        <item itemvalue="Android JUnit.ProjectsDataStoreFactoryTest.getDataStoreReturnsStoreWhenCacheExpired" />
+        <item itemvalue="Android JUnit.UnbookmarkProjectTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1abd2ade-1198-45f1-851d-c6382187be1e" name="Default Changelist" comment="" />
+      <created>1564670437456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564670437456</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UnbookmarkProjectTest - 2019.08.03 at 20h 18m 24s.xml">
+      <configuration name="UnbookmarkProjectTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ProjectsDataStoreFactoryTest_getDataStoreReturnsStoreWhenCacheExpired - 2019.08.07 at 19h 20m 46s.xml">
+      <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsStoreWhenCacheExpired" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ProjectsDataStoreFactoryTest_getDataStoreReturnsStoreWhenCacheExpired - 2019.08.07 at 19h 21m 29s.xml">
+      <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsStoreWhenCacheExpired" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ProjectsDataStoreFactoryTest_getDataStoreReturnsStoreWhenCacheExpired - 2019.08.07 at 19h 21m 50s.xml">
+      <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsStoreWhenCacheExpired" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ProjectsDataStoreFactoryTest_getDataStoreReturnsStoreWhenCacheExpired - 2019.08.07 at 19h 22m 08s.xml">
+      <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsStoreWhenCacheExpired" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ProjectsDataStoreFactoryTest_getDataStoreReturnsStoreWhenProjectsNotCache - 2019.08.07 at 19h 24m 02s.xml">
+      <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsStoreWhenProjectsNotCache" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ProjectsDataStoreFactoryTest_getDataStoreReturnsCacheStore - 2019.08.07 at 19h 24m 47s.xml">
+      <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsCacheStore" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ProjectsDataStoreFactoryTest_getDataStoreReturnsCacheStore - 2019.08.07 at 19h 25m 21s.xml">
+      <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsCacheStore" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ProjectsDataStoreFactoryTest_getDataStoreReturnsCacheStore - 2019.08.07 at 19h 25m 53s.xml">
+      <configuration name="ProjectsDataStoreFactoryTest.getDataStoreReturnsCacheStore" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ProjectsDataStoreFactoryTest_getCacheDataStoreReturnsCacheStore - 2019.08.07 at 19h 27m 13s.xml">
+      <configuration name="ProjectsDataStoreFactoryTest.getCacheDataStoreReturnsCacheStore" configurationId="AndroidJUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16577181" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.6175973" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32994923" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.9492386" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32994923" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.41642228" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32930514" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3081571" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.6175973" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32994923" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3282572" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32994923" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.3062606" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32930514" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>stubBookmarkProject(Completable.complete())</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/domain/src/test/java/com/e/githubtrending/test/ProjectDataFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#35#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/e/domain/model/Project.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/test/java/com/e/githubtrending/ExampleUnitTest.kt" />
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/repository/ProjectsCache.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/mapper/ProjectMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="e#33#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/mapper/EntityMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/e/domain/repository/ProjectRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/browse/GetProjects.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/bookmarked/BookmarkedProject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/bookmarked/GetBookmarkedProjects.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/bookmarked/UnbookmarkProject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/ProjectsDataRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/repository/ProjectsDataStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/e/domain/executor/PostExecutionThread.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/e/domain/interactor/ObservableUseCase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/test/java/com/e/githubtrending/factory/DataFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#30#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/store/ProjectsRemoteDataStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#32#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/store/ProjectsCacheDataStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#32#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/test/java/com/e/githubtrending/factory/ProjectsFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/test/java/com/e/githubtrending/store/ProjectsDataStoreFactoryTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+          <folding>
+            <element signature="e#36#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/store/ProjectsDataStoreFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#32#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.2/9a1b0d93f8494992f1cef4155893d85268bdfc64/rxjava-2.0.2-sources.jar!/io/reactivex/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139349">
+          <caret line="8250" column="35" selection-start-line="8250" selection-start-column="35" selection-end-line="8250" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/repository/ProjectsRemote.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#37#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/src/main/java/com/android/remote/mapper/ModelMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/src/main/java/com/android/remote/model/ProjectModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/src/main/java/com/android/remote/model/ProjectsResponseModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/src/main/java/com/android/remote/service/GithubTrendingService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#36#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/src/main/java/com/android/remote/mapper/ProjectsResponseModelMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/src/main/java/com/android/remote/service/GithubTrendingServiceFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/src/main/java/com/android/remote/ProjectsRemoteImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/src/main/java/com/android/remote/model/OwnerModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/cache.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-all/97z1ksx6lirer3kbvdnh7jtjg/gradle-5.1.1/src/core-api/org/gradle/api/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="247" column="12" selection-start-line="247" selection-start-column="12" selection-end-line="247" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/785575d6b699a02527a4ad16f0972fa2c1ee583f/kotlin-stdlib-1.3.41-sources.jar!/kotlin/Any.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/build/tmp/kapt3/stubs/debug/com/android/cache/dao/CachedProjectsDao.java" />
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/com/android/cache/model/Config.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/com/android/cache/db/ProjectConstants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/com/android/cache/db/ConfigConstants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.10/9d22e03b9f0a300edff23ccf219d406d12c3378f/rxjava-2.2.10-sources.jar!/io/reactivex/Flowable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/com/android/cache/dao/ConfigDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/com/android/cache/db/ProjectsDatabase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/com/android/cache/dao/CachedProjectsDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/android/data/model/ProjectEntity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/com/android/cache/mapper/CachedProjectMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#34#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/com/android/cache/mapper/CacheMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/com/android/cache/model/CachedProject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
