@@ -1,17 +1,18 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+
+    def global = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion global["androidCompileSdkVersion"]
+    buildToolsVersion global["androidBuildToolsVersion"]
 
 
     defaultConfig {
-        applicationId "com.thiago.mobileui"
-        minSdkVersion 15
-        targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion global["androidMinSdkVersion"]
+        targetSdkVersion global["androidTargetSdkVersion"]
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
