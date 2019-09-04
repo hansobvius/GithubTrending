@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Sep 04 10:49:51 BRT 2019
+#Wed Sep 04 10:57:27 BRT 2019
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\thiag\\AndroidStudioProjects\\GithubTrending\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 0.path=classes.dex
