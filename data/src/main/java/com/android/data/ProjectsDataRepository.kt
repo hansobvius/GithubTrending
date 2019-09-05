@@ -22,7 +22,7 @@ class ProjectsDataRepository @Inject constructor(
                 Pair(areCached, isExpired)
             })
             .flatMap{
-                factory.getDataStore(it.first, it.second).getProjects()
+                factory.getDataStore(it.first, it.second).getProjects().toObservable()
             }
             .flatMap{projects ->
                 factory.getCachedDataStore()
@@ -45,7 +45,7 @@ class ProjectsDataRepository @Inject constructor(
     }
 
     override fun getBookmarkedProject(): Observable<List<Project>> {
-        return factory.getCachedDataStore().getBookmarkedProjects()
+        return factory.getCachedDataStore().getBookmarkedProjects().toObservable()
             .map{
                 it.map{mapper.mapFromEntity(it)}
             }

@@ -2,6 +2,7 @@ package com.thiago.mobileui.injection
 
 import android.app.Application
 import com.thiago.mobileui.GithubTrendingApplication
+import com.thiago.mobileui.injection.module.*
 import dagger.BindsInstance
 import dagger.Component
 import dagger.Module
@@ -9,7 +10,14 @@ import dagger.android.AndroidInjectionModule
 import javax.inject.Singleton
 
 @Singleton
-@Component(modules = arrayOf(AndroidInjectionModule::class))
+@Component(modules = arrayOf(
+    AndroidInjectionModule::class,
+    ApplicationModule::class,
+    UiModule::class,
+    PresentationModule::class,
+    DataModule::class,
+    CacheModule::class,
+    RemoteModule::class))
 interface ApplicationComponent {
 
     @Component.Builder
