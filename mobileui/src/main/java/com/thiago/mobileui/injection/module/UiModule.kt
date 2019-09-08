@@ -1,7 +1,7 @@
 package com.thiago.mobileui.injection.module
 
 import com.e.domain.executor.PostExecutionThread
-import com.thiago.mobileui.BrowseActivity
+import com.thiago.mobileui.browse.BrowseActivity
 import com.thiago.mobileui.UiThread
 import dagger.Binds
 import dagger.Module
