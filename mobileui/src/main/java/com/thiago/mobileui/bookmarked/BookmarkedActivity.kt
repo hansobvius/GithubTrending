@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -53,6 +54,7 @@ class BookmarkedActivity : AppCompatActivity() {
                 }
             })
         browseProjectsViewModel.fetchProjects()
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     private fun setupBrowserRecycler(){
@@ -80,8 +82,16 @@ class BookmarkedActivity : AppCompatActivity() {
         projects?.let{
             bookmarkedAdapter.projects = it
             bookmarkedAdapter.notifyDataSetChanged()
-        }?: run{
+        }?: run{}
+    }
 
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        return when(item?.itemId){
+            android.R.id.home -> {
+                finish()
+                true
+            }else -> super.onOptionsItemSelected(item)
         }
+
     }
 }

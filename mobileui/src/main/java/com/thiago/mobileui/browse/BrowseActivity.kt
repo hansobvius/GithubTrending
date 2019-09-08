@@ -1,5 +1,6 @@
 package com.thiago.mobileui.browse
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -10,6 +11,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.facebook.stetho.Stetho
 import com.thiago.mobileui.R
+import com.thiago.mobileui.bookmarked.BookmarkedActivity
 import com.thiago.mobileui.injection.ViewModelFactory
 import com.thiago.mobileui.mapper.ProjectViewMapper
 import com.thiago.mobileui.model.Project
@@ -72,7 +74,7 @@ class BrowseActivity : AppCompatActivity() {
             browseAdapter.projects = it
             browseAdapter.notifyDataSetChanged()
             recycler_projects.visibility = View.VISIBLE
-        } ?: run{}
+        }?: run{}
     }
 
     private val projectListener = object : ProjectListener{
@@ -99,6 +101,7 @@ class BrowseActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         return when(item?.itemId){
             R.id.image_bookmarked -> {
+                startActivity(BookmarkedActivity.getStartIntent(this))
                 true
             }
             else -> super.onOptionsItemSelected(item)
