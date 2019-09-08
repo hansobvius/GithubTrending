@@ -58,6 +58,8 @@ dependencies {
     implementation mobileUiDependencies.dagger
     implementation mobileUiDependencies.daggerSupport
 
+    implementation mobileUiDependencies.stetho
+
     implementation presentationDependencies.archRuntime
     implementation presentationDependencies.archExtensions
 //    implementation presentationDependencies.roomRxJava

@@ -24,6 +24,7 @@ ext{
     timberVersion = '4.7.1'
     glideVersion = '4.0.0'
     glassfishAnnotationVersion = '10.0-b28'
+    stethoVersion = '1.5.1'
 
     //Testing
     jUnitVersion = '4.12'
@@ -156,6 +157,7 @@ ext{
             roomRuntime: "android.arch.persistence.room:runtime:${archCompVersion}",
             roomCompiler: "android.arch.persistence.room:compiler:${archCompVersion}",
             roomRxJava: "android.arch.persistence.room:rxjava2:${archCompVersion}",
+            stetho: "com.facebook.stetho:stetho-okhttp3:${stethoVersion}",
     ]
 
     mobileUiTestDependencies = [
