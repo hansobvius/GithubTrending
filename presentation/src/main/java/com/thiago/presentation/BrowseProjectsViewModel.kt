@@ -38,7 +38,7 @@ class BrowseProjectsViewModel @Inject constructor(
 
     fun fetchProjects(){
         liveData.postValue(Resource(ResourceState.LOADING, null, null))
-        return getProjects?.execute(ProjectsSubscriber())
+        return getProjects.execute(ProjectsSubscriber())
     }
 
     fun bookmarkedProject(projectId: String){

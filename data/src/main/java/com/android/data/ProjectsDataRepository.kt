@@ -8,6 +8,7 @@ import com.e.domain.repository.ProjectRepository
 import io.reactivex.Completable
 import io.reactivex.Observable
 import io.reactivex.functions.BiFunction
+import java.util.logging.Logger
 import javax.inject.Inject
 
 class ProjectsDataRepository @Inject constructor(
@@ -29,8 +30,8 @@ class ProjectsDataRepository @Inject constructor(
                     .saveProjects(projects)
                     .andThen(Observable.just(projects))
             }
-            .map{
-                it.map{
+            .map{projectEntity ->
+                projectEntity.map{
                     mapper.mapFromEntity(it)
                 }
             }
@@ -47,7 +48,9 @@ class ProjectsDataRepository @Inject constructor(
     override fun getBookmarkedProject(): Observable<List<Project>> {
         return factory.getCachedDataStore().getBookmarkedProjects().toObservable()
             .map{
-                it.map{mapper.mapFromEntity(it)}
+                it.map{projectEntity ->
+                    mapper.mapFromEntity(projectEntity)
+                }
             }
     }
 }

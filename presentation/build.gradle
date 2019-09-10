@@ -76,6 +76,7 @@ dependencies {
     implementation presentationDependencies.rxKotlin
     implementation presentationDependencies.archRuntime
     implementation presentationDependencies.archExtensions
+    implementation presentationDependencies.timber
     kapt presentationDependencies.archCompiler
 
     testImplementation presentationTestDependencies.junit

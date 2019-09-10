@@ -6,6 +6,7 @@ import com.android.cache.model.Config
 import com.android.data.model.ProjectEntity
 import com.android.data.repository.ProjectsCache
 import io.reactivex.*
+import timber.log.Timber
 import javax.inject.Inject
 
 class ProjectsCacheImpl @Inject constructor(
@@ -23,6 +24,7 @@ class ProjectsCacheImpl @Inject constructor(
         return Completable.defer{
             projectsDatabase.cachedProjectsDao().insertProjects(
                 projects.map{
+                    Timber.i("saveProjects %s", it)
                     mapper.mapToCached(it)
                 }
             )
@@ -31,9 +33,11 @@ class ProjectsCacheImpl @Inject constructor(
     }
 
     override fun getProjects(): Flowable<List<ProjectEntity>> {
+
         return projectsDatabase.cachedProjectsDao().getProjects()
             .map{
                 it.map{
+                    Timber.i("getProjects %s", it)
                     mapper.mapFromCached(it)
                 }
             }
@@ -76,11 +80,12 @@ class ProjectsCacheImpl @Inject constructor(
         }
     }
 
-    override fun isProjectsCacheExpired(): Flowable<Boolean> {
+    override fun isProjectsCacheExpired(): Single<Boolean> {
         val currentTime = System.currentTimeMillis()
         val expirationTIme = (60 * 10 * 1000).toLong()
         return projectsDatabase.configDao().getConfig()
             .onErrorReturn{Config(lastCacheTime = 0)}
+            .toSingle(Config(lastCacheTime = 0L))
             .map{
                 currentTime - it.lastCacheTime > expirationTIme
             }

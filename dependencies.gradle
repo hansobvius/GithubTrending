@@ -16,9 +16,9 @@ ext{
     rxAndroidVersion = '2.0.1'
     androidAnnotationVersion = '21.0.3'
     daggerVersion = '2.11'
-    gsonVersion = '2.8.1'
+    gsonVersion = '2.8.5'
     okHttpVersion = '3.8.1'
-    retrofitVersion = '2.3.0'
+    retrofitVersion = '2.4.0'
     roomVersion = '1.0.0'
     archCompVersion = '1.0.0'
     timberVersion = '4.7.1'
@@ -41,7 +41,8 @@ ext{
     domainDependencies = [
             javaxAnnotation: "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
             javaxInject: "javax.inject:javax.inject:${javaxInjectVersion}",
-            rxJava: "io.reactivex.rxjava2:rxjava:${rxJavaVersion}"
+            rxJava: "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+            timber: "com.jakewharton.timber:timber:${timberVersion}",
     ]
 
     domainTestDependencies = [
@@ -55,6 +56,7 @@ ext{
             kotlin: "org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}",
             javaxAnnotation: "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
             javaxInject:"javax.inject:javax.inject:${javaxInjectVersion}",
+            timber: "com.jakewharton.timber:timber:${timberVersion}",
     ]
 
     dataTestDependencies = [
@@ -76,7 +78,8 @@ ext{
             okHttpLogger: "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
             retrofit: "com.squareup.retrofit2:retrofit:${retrofitVersion}",
             retrofitConverter: "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
-            retrofitAdapter: "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}"
+            retrofitAdapter: "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
+            timber: "com.jakewharton.timber:timber:${timberVersion}",
     ]
 
     remoteTestDependencies = [
@@ -97,7 +100,8 @@ ext{
             androidAnnotations: "com.android.support:support-annotations:${androidAnnotationVersion}",
             roomRuntime: "android.arch.persistence.room:runtime:${roomVersion}",
             roomCompiler: "android.arch.persistence.room:compiler:${roomVersion}",
-            roomRxJava: "android.arch.persistence.room:rxjava2:${roomVersion}"
+            roomRxJava: "android.arch.persistence.room:rxjava2:${roomVersion}",
+            timber: "com.jakewharton.timber:timber:${timberVersion}",
     ]
 
     cacheTestDependencies = [
@@ -123,7 +127,8 @@ ext{
             androidAnnotations: "com.android.support:support-annotations:${androidAnnotationVersion}",
             archRuntime: "android.arch.lifecycle:runtime:${archCompVersion}",
             archExtensions: "android.arch.lifecycle:extensions:${archCompVersion}",
-            archCompiler: "android.arch.lifecycle:compiler:${archCompVersion}"
+            archCompiler: "android.arch.lifecycle:compiler:${archCompVersion}",
+            timber: "com.jakewharton.timber:timber:${timberVersion}",
     ]
 
     presentationTestDependencies = [

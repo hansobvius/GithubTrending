@@ -1,5 +1,6 @@
 package com.android.data.store
 
+import android.util.Log
 import com.android.data.model.ProjectEntity
 import com.android.data.repository.ProjectsDataStore
 import com.android.data.repository.ProjectsRemote
@@ -11,7 +12,14 @@ import javax.inject.Inject
 open class ProjectsRemoteDataStore @Inject constructor(private val projectsRemote: ProjectsRemote): ProjectsDataStore  {
 
     override fun getProjects(): Flowable<List<ProjectEntity>> {
-        return projectsRemote.getProjects()
+        val listProject = projectsRemote.getProjects()
+        Log.i("request", "ListProjects: " + listProject)
+        listProject.map{project -> {
+            project.map { obj -> {
+                obj
+            }}
+        }}
+        return listProject
     }
 
     override fun saveProjects(projects: List<ProjectEntity>): Completable {

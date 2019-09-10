@@ -24,5 +24,5 @@ interface ProjectsCache {
 
     fun setLastCacheTime(lastCache: Long): Completable
 
-    fun isProjectsCacheExpired(): Flowable<Boolean>
+    fun isProjectsCacheExpired(): Single<Boolean>
 }

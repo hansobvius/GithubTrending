@@ -3,6 +3,7 @@ package com.thiago.mobileui.browse
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -21,6 +22,7 @@ import com.thiago.presentation.state.Resource
 import com.thiago.presentation.state.ResourceState
 import dagger.android.AndroidInjection
 import kotlinx.android.synthetic.main.activity_browse.*
+import timber.log.Timber
 import javax.inject.Inject
 
 class BrowseActivity : AppCompatActivity() {
@@ -60,10 +62,17 @@ class BrowseActivity : AppCompatActivity() {
                 setupScreenForSuccess(resource.data?.map{
                     mapper.mapFromView(it)
                 }!!)
+                Log.i("apiTest", "Resource Data: " + resource.data)
+                Timber.i("resource data %s", resource.data)
             }
             ResourceState.LOADING -> {
                 progress.visibility = View.VISIBLE
                 recycler_projects.visibility = View.GONE
+                Log.i("apiTest", "Resource State: " + resource.status)
+                Timber.i("resource state %s", resource.status)
+            }
+            ResourceState.ERROR -> {
+                Timber.i("resource error %s", resource.message)
             }
         }
     }
@@ -74,6 +83,7 @@ class BrowseActivity : AppCompatActivity() {
             browseAdapter.projects = it
             browseAdapter.notifyDataSetChanged()
             recycler_projects.visibility = View.VISIBLE
+            Timber.i("data info to adapter: %s", it)
         }?: run{}
     }
 

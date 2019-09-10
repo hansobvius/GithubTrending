@@ -36,6 +36,7 @@ dependencies {
     implementation cacheDependencies.rxKotlin
     implementation cacheDependencies.roomRuntime
     implementation cacheDependencies.roomRxJava
+    implementation cacheDependencies.timber
     kapt cacheDependencies.roomCompiler
 
     testImplementation cacheTestDependencies.junit
