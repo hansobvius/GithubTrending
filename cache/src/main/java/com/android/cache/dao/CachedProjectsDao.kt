@@ -10,12 +10,13 @@ import com.android.cache.db.ProjectConstants.QUERY_PROJECTS
 import com.android.cache.db.ProjectConstants.QUERY_UPDATE_BOOKMARKED_STATUS
 import com.android.cache.model.CachedProject
 import io.reactivex.Flowable
+import io.reactivex.Observable
 
 @Dao
 abstract class CachedProjectsDao {
 
     @Query(QUERY_PROJECTS)
-    abstract fun getProjects(): Flowable<List<CachedProject>>
+    abstract fun getProjects(): Observable<List<CachedProject>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     abstract fun insertProjects(proects: List<CachedProject>)

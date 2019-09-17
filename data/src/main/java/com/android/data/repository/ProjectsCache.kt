@@ -12,7 +12,7 @@ interface ProjectsCache {
 
     fun saveProjects(projects: List<ProjectEntity>): Completable
 
-    fun getProjects(): Flowable<List<ProjectEntity>>
+    fun getProjects(): Observable<List<ProjectEntity>>
 
     fun getBookmarkedProjects(): Flowable<List<ProjectEntity>>
 

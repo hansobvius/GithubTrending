@@ -1,5 +1,6 @@
 package com.android.data
 
+import android.util.Log
 import com.android.data.mapper.ProjectMapper
 import com.android.data.repository.ProjectsCache
 import com.android.data.store.ProjectsDataStoreFactory
@@ -17,13 +18,15 @@ class ProjectsDataRepository @Inject constructor(
     private val factory: ProjectsDataStoreFactory): ProjectRepository {
 
     override fun getProjects(): Observable<List<Project>> {
-        return Observable.zip(cache.areProjectsCached().toObservable(),
+        return Observable.zip(
+            cache.areProjectsCached().toObservable(),
             cache.isProjectsCacheExpired().toObservable(),
-            BiFunction<Boolean, Boolean, Pair<Boolean, Boolean>> {areCached, isExpired ->
-                Pair(areCached, isExpired)
+            BiFunction<Boolean, Boolean, Pair<Boolean, Boolean>> {
+                    areCached, isExpired -> Pair(areCached, isExpired)
             })
             .flatMap{
-                factory.getDataStore(it.first, it.second).getProjects().toObservable()
+                Log.i("request", "ProjectsDataRepository called")
+                factory.getDataStore(it.first, it.second).getProjects()
             }
             .flatMap{projects ->
                 factory.getCachedDataStore()

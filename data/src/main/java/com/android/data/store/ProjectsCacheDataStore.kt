@@ -10,7 +10,7 @@ import javax.inject.Inject
 
 open class ProjectsCacheDataStore @Inject constructor(private val projectsCache: ProjectsCache): ProjectsDataStore{
 
-    override fun getProjects(): Flowable<List<ProjectEntity>> {
+    override fun getProjects(): Observable<List<ProjectEntity>> {
         return projectsCache.getProjects()
     }
 

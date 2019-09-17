@@ -7,7 +7,7 @@ import io.reactivex.Observable
 
 interface ProjectsDataStore {
 
-    fun getProjects(): Flowable<List<ProjectEntity>>
+    fun getProjects(): Observable<List<ProjectEntity>>
 
     fun saveProjects(projects: List<ProjectEntity>): Completable
 

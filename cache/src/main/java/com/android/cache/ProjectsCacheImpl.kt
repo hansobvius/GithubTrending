@@ -24,7 +24,6 @@ class ProjectsCacheImpl @Inject constructor(
         return Completable.defer{
             projectsDatabase.cachedProjectsDao().insertProjects(
                 projects.map{
-                    Timber.i("saveProjects %s", it)
                     mapper.mapToCached(it)
                 }
             )
@@ -32,7 +31,7 @@ class ProjectsCacheImpl @Inject constructor(
         }
     }
 
-    override fun getProjects(): Flowable<List<ProjectEntity>> {
+    override fun getProjects(): Observable<List<ProjectEntity>> {
 
         return projectsDatabase.cachedProjectsDao().getProjects()
             .map{

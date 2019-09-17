@@ -11,5 +11,5 @@ interface GithubTrendingService {
     @GET("search/repositories")
     fun searchRepositories(@Query("q") query: String,
                            @Query("sort") sortBy: String,
-                           @Query("order") order: String): Flowable<ProjectsResponseModel>
+                           @Query("order") order: String): Observable<ProjectsResponseModel>
 }

@@ -11,15 +11,8 @@ import javax.inject.Inject
 
 open class ProjectsRemoteDataStore @Inject constructor(private val projectsRemote: ProjectsRemote): ProjectsDataStore  {
 
-    override fun getProjects(): Flowable<List<ProjectEntity>> {
-        val listProject = projectsRemote.getProjects()
-        Log.i("request", "ListProjects: " + listProject)
-        listProject.map{project -> {
-            project.map { obj -> {
-                obj
-            }}
-        }}
-        return listProject
+    override fun getProjects(): Observable<List<ProjectEntity>> {
+        return projectsRemote.getProjects()
     }
 
     override fun saveProjects(projects: List<ProjectEntity>): Completable {
